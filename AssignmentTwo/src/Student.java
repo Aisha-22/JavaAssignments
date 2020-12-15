@@ -1,10 +1,12 @@
-public class Student {
+import java.lang.reflect.Array;
+
+public class Student extends Person{
 
     public String firstName;
     public String lastName;
     public int id;
-    public String subjects[];
-    public int grades[];
+    public String[] subjects;
+    public int[] grades;
 
     public String getDetails(){
         return "";
@@ -23,4 +25,24 @@ public class Student {
     public void addGrades(){
 
     }
+
+    public String getSubjects() {
+        return "";
+    }
+
+    //Arrays
+
+    public String[] setSubjects(String[] subjects) {
+        return this.subjects = subjects;
+    }
+
+
+    public int getGrades() {
+        return 0;
+    }
+
+   public int[] setGrades(int[] grades) {
+        return this.grades = grades;
+    }
+
 }

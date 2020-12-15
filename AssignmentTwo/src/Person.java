@@ -31,4 +31,12 @@ public class Person {
     public int setID(int ID){
         return this.id = ID;
     }
+
+    //Constructor
+    public Person(String firstName, String lastName, int id){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.id = id;
+
+    }
 }

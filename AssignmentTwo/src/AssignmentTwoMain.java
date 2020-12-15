@@ -4,5 +4,6 @@ public class AssignmentTwoMain {
 
         Student student = new Student();
 
+        Person person = new Person("","", 0);
     }
 }
