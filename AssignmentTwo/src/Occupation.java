@@ -1,19 +1,22 @@
-public class Person {
+public class Occupation
+{
     public String firstName;
     public String lastName;
     public int id;
 
-    public Person() {
+    public Occupation(String firstName, String lastName, int id){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.id = id;
 
     }
 
-
     public String getDetails(){
-        return "";
+        return "Fist Name: " + firstName + "Last Name: " + lastName + "ID: " + id;
     }
 
     public String getFirstName(){
-        return "";
+        return this.firstName;
     }
 
     public String setFirstName(String name){
@@ -21,26 +24,17 @@ public class Person {
     }
 
     public String getLastName(){
-        return "";
+        return this.lastName;
     }
 
     public String setLastName(String surName){
         return this.lastName = surName;
     }
 
-    public int getID(){
-        return 0;
+    public int getID(){ return this.id = id;
     }
 
     public int setID(int ID){
         return this.id = ID;
-    }
-
-    //Constructor
-    public Person(String firstName, String lastName, int id){
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.id = id;
-
     }
 }

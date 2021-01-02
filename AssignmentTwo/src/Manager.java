@@ -7,6 +7,10 @@ public class Manager extends Person {
     public int hoursWorked[];
     public int hourlyRate;
 
+    public Manager(String firstName, String lastName, int id) {
+        super(firstName, lastName, id);
+    }
+
     public String getDetails(){
         return "";
 

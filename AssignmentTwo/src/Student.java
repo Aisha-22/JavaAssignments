@@ -1,12 +1,19 @@
 import java.lang.reflect.Array;
 
-public class Student extends Person{
+//
+public class Student extends Occupation{
 
-    public String firstName;
+    //Instant variable
+    /*public String firstName;
     public String lastName;
     public int id;
+     */
     public String[] subjects;
     public int[] grades;
+
+    public Student(String firstName, String lastName, int id) {
+        super(firstName, lastName, id);
+    }
 
     public String getDetails(){
         return "";
